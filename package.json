@@ -1,0 +1,31 @@
+{
+  "name": "headboard",
+  "version": "1.0.0",
+  "description": "Simple Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpuga/headboard.git"
+  },
+  "keywords": [
+    "socket.io",
+    "node",
+    "express",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Alex Puga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpuga/headboard/issues"
+  },
+  "homepage": "https://github.com/alpuga/headboard#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11"
+  }
+}
