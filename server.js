@@ -1,9 +1,14 @@
 const express   = require('express');
+let app = express();
+
+
 const bodyParser = require('body-parser');
 const mongoose  = require('mongoose');
+const http      = require('http').Server(app);
+const io        = require('socket.io')(http);
 
 let port = process.env.PORT || 3000;
-let app = express();
+
 
 require('dotenv').config();
 
@@ -37,11 +42,15 @@ app.route('/messages')
      if (err) {
        sendStatus(500);
      }
-    res.sendStatus(200);
+     io.emit('message', req.body);
+     res.sendStatus(200);
   })
 });
 
+io.on('connection', (socket) => {
+  console.log('a user connected')
+});
 
-let server = app.listen(port, () => {
+let server = http.listen(port, () => {
   console.log('Server is running on port', server.address().port);
 });

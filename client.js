@@ -1,5 +1,9 @@
 $( document ).ready(function() {
 
+  let socket = io();
+
+  socket.on('message', addMessages);
+
   function addMessages(message) {
     $('#messages').append(
       `<h4> ${message.name} </h4>
