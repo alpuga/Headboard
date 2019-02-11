@@ -3,25 +3,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>HeadBoard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="container">
-      <br>
-      <div class="jumbotron">
-        <h1 class="display-4">HeadBoard</h1>
+      <fieldset>
         <br>
-        <h4>Let's Chat</h4>
-        <input id="name" class="form-control" type="text" name="Name" placeholder="Name">
+        <div class="">
+          <h1 class="display-4 text-center">HeadBoard</h1>
+          <br>
+          <h4 class="text-center">Let's Chat</h4>
+          <input id="name" class="ghost-input" placeholder="Your Name Here">
+          <br>
+          <textarea id="message" class="ghost-input" placeholder="Your Message Here"></textarea>
+          <br>
+          <div class="">
+            <button id="send" class="btn btn-success center" type="button" name="button">Send it</button>
+          </div>
+        </div>
         <br>
-        <textarea id="message" class="form-control" placeholder="Your Message Here" name="message" ></textarea>
-        <br>
-        <button id="send" class="btn btn-success" type="button" name="button">Send it</button>
-      </div>
-      <div id="messages">
+        <div id="messages" class="text-center">
 
-      </div>
+        </div>
+      </fieldset>
     </div>
 
 
