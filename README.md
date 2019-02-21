@@ -1,6 +1,6 @@
 # Headboard
 
-![headboard example](https://user-images.githubusercontent.com/37851662/53209571-e0c29e80-3608-11e9-8802-5c76f49870d2.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/37851662/53210114-ad810f00-360a-11e9-93a5-4bc2db57d223.gif)
 Real-time chat application using Socket.io
 
 ## Installing
