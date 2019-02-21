@@ -21,7 +21,7 @@ let Message = mongoose.model('Message', {
   message: String
 });
 
-mongoose.connect(process.env.DATABASE, (err, db) => {
+mongoose.connect(process.env.DATABASE, {useNewUrlParser: true}, (err, db) => {
   if (err) {
     console.log('Database error: ' + err);
   } else {
