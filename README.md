@@ -1,5 +1,6 @@
 # Headboard
 
+<img width="755" alt="screen shot 2019-02-11 at 5 00 48 pm" src="https://user-images.githubusercontent.com/37851662/53208366-7c9ddb80-3604-11e9-93ea-3322d926f757.png">
 Real-time chat application using Socket.io
 
 ## Installing
