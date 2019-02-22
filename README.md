@@ -1,6 +1,6 @@
 # Headboard
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/37851662/53210114-ad810f00-360a-11e9-93a5-4bc2db57d223.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/37851662/53210114-ad810f00-360a-11e9-93a5-4bc2db57d223.gif | width=500)
 Real-time chat application using Socket.io
 
 ## Installing
