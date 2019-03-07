@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alpuga/headboard.git"
+    "url": "git+https://github.com/alpuga/simple-real-time-app.git"
   },
   "keywords": [
     "socket.io",
@@ -20,9 +20,9 @@
   "author": "Alex Puga",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alpuga/headboard/issues"
+    "url": "https://github.com/alpuga/simple-real-time-app/issues"
   },
-  "homepage": "https://github.com/alpuga/headboard#readme",
+  "homepage": "https://github.com/alpuga/simple-real-time-app#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
