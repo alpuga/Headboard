@@ -1,4 +1,4 @@
-# Headboard
+# Simple Real-Time Chat Application
 
 <img src="https://user-images.githubusercontent.com/37851662/53210114-ad810f00-360a-11e9-93a5-4bc2db57d223.gif" alt="alt text" width="500">
 
@@ -34,6 +34,7 @@ Make sure to add your own `MONGO_URI` from your [mLab](http://mlab.com) database
 ```
 MONGO_URI=mongodb://<dbuser>:<dbpassword>@dsXXXXXX.mlab.com:XXXXX/database
 ```
+
 Also add `SECRET=random` to your `.env`
 
 ## Deployment
